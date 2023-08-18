@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aws-sqs-listener" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aws-sqs-listener.main" target="17" />
+      <module name="aws-sqs-listener.test" target="17" />
+      <module name="io.github.bluething.playground.spring.cloud.config-client.main" target="17" />
+      <module name="sqs-jmslistener" target="17" />
+      <module name="sqs-jmslistener.main" target="17" />
+      <module name="sqs-jmslistener.test" target="17" />
+      <module name="sqs-sqslistener" target="17" />
+      <module name="sqs-sqslistener.main" target="17" />
+      <module name="sqs-sqslistener.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aws-sqs-listener" options="-parameters" />
+    </option>
+  </component>
+</project>
